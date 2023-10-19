@@ -15,3 +15,5 @@ part of the array each recursive call considers.
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
+
+The run-time analysis of the merge sort algorithm, which I believe would be O(n log (n)) for it’s worst case runtime. I believe this because it divides the array into smaller parts and then combines them while comparing and rearranging elements. The number of operations for each step is proportional to the array size with O(n log (n)) time complexity. So the worst case bound is $\Theta$ (n log (n))
